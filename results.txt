@@ -1,0 +1,235 @@
+###############################################################################################
+###############################################################################################
+
+USE_CATEGORICAL = False
+USE_CLASSIFICATION = False
+
+Floor Pre Latent Scores:
+Num Clusters: 2  Silhouette Score K-Means: 0.332 GMM: 0.335
+Num Clusters: 3  Silhouette Score K-Means: 0.385 GMM: 0.315
+Num Clusters: 4  Silhouette Score K-Means: 0.420 GMM: 0.367
+Num Clusters: 5  Silhouette Score K-Means: 0.407 GMM: 0.350
+Num Clusters: 6  Silhouette Score K-Means: 0.409 GMM: 0.367
+Num Clusters: 7  Silhouette Score K-Means: 0.410 GMM: 0.389
+---> Best K-Means score: 0.420, Number of clusters: 4
+---> Best GMM score: 0.389, Number of clusters: 7
+
+Sofa Pre Latent Scores:
+Num Clusters: 2  Silhouette Score K-Means: 0.389 GMM: 0.395
+Num Clusters: 3  Silhouette Score K-Means: 0.375 GMM: 0.351
+Num Clusters: 4  Silhouette Score K-Means: 0.382 GMM: 0.335
+Num Clusters: 5  Silhouette Score K-Means: 0.379 GMM: 0.294
+Num Clusters: 6  Silhouette Score K-Means: 0.392 GMM: 0.311
+Num Clusters: 7  Silhouette Score K-Means: 0.382 GMM: 0.246
+---> Best K-Means score: 0.392, Number of clusters: 6
+---> Best GMM score: 0.395, Number of clusters: 2
+
+Room Pre Latent Scores:
+Num Clusters: 2  Silhouette Score K-Means: 0.395 GMM: 0.385
+Num Clusters: 3  Silhouette Score K-Means: 0.410 GMM: 0.390
+Num Clusters: 4  Silhouette Score K-Means: 0.399 GMM: 0.381
+Num Clusters: 5  Silhouette Score K-Means: 0.375 GMM: 0.309
+Num Clusters: 6  Silhouette Score K-Means: 0.394 GMM: 0.276
+Num Clusters: 7  Silhouette Score K-Means: 0.397 GMM: 0.280
+---> Best K-Means score: 0.410, Number of clusters: 3
+---> Best GMM score: 0.390, Number of clusters: 3
+
+Hallway Pre Latent Scores:
+Num Clusters: 2  Silhouette Score K-Means: 0.319 GMM: 0.308
+Num Clusters: 3  Silhouette Score K-Means: 0.352 GMM: 0.349
+Num Clusters: 4  Silhouette Score K-Means: 0.336 GMM: 0.288
+Num Clusters: 5  Silhouette Score K-Means: 0.333 GMM: 0.271
+Num Clusters: 6  Silhouette Score K-Means: 0.359 GMM: 0.320
+Num Clusters: 7  Silhouette Score K-Means: 0.352 GMM: 0.289
+---> Best K-Means score: 0.359, Number of clusters: 6
+---> Best GMM score: 0.349, Number of clusters: 3
+
+Type Pre Latent Scores:
+Num Clusters: 2  Silhouette Score K-Means: 0.350 GMM: 0.349
+Num Clusters: 3  Silhouette Score K-Means: 0.355 GMM: 0.319
+Num Clusters: 4  Silhouette Score K-Means: 0.359 GMM: 0.319
+Num Clusters: 5  Silhouette Score K-Means: 0.342 GMM: 0.317
+Num Clusters: 6  Silhouette Score K-Means: 0.351 GMM: 0.325
+Num Clusters: 7  Silhouette Score K-Means: 0.344 GMM: 0.333
+---> Best K-Means score: 0.359, Number of clusters: 4
+---> Best GMM score: 0.349, Number of clusters: 2
+
+K-Means scores: [0.420, 0.392, 0.410, 0.359, 0.359], Avg: 0.388
+GMM score: [0.389, 0.395, 0.390, 0.349, 0.349], Avg: 0.374
+
+###############################################################################################
+###############################################################################################
+
+USE_CATEGORICAL = False
+USE_CLASSIFICATION = True
+
+Floor Pre Latent Scores:
+Num Clusters: 2  Silhouette Score K-Means: 0.331 GMM: 0.328
+Num Clusters: 3  Silhouette Score K-Means: 0.353 GMM: 0.359
+Num Clusters: 4  Silhouette Score K-Means: 0.363 GMM: 0.354
+Num Clusters: 5  Silhouette Score K-Means: 0.377 GMM: 0.334
+Num Clusters: 6  Silhouette Score K-Means: 0.375 GMM: 0.345
+Num Clusters: 7  Silhouette Score K-Means: 0.370 GMM: 0.344
+---> Best K-Means score: 0.377, Number of clusters: 5
+---> Best GMM score: 0.359, Number of clusters: 3
+
+Sofa Pre Latent Scores:
+Num Clusters: 2  Silhouette Score K-Means: 0.355 GMM: 0.363
+Num Clusters: 3  Silhouette Score K-Means: 0.386 GMM: 0.350
+Num Clusters: 4  Silhouette Score K-Means: 0.386 GMM: 0.312
+Num Clusters: 5  Silhouette Score K-Means: 0.413 GMM: 0.289
+Num Clusters: 6  Silhouette Score K-Means: 0.411 GMM: 0.377
+Num Clusters: 7  Silhouette Score K-Means: 0.421 GMM: 0.302
+---> Best K-Means score: 0.421, Number of clusters: 7
+---> Best GMM score: 0.377, Number of clusters: 6
+
+Room Pre Latent Scores:
+Num Clusters: 2  Silhouette Score K-Means: 0.328 GMM: 0.319
+Num Clusters: 3  Silhouette Score K-Means: 0.363 GMM: 0.363
+Num Clusters: 4  Silhouette Score K-Means: 0.350 GMM: 0.345
+Num Clusters: 5  Silhouette Score K-Means: 0.314 GMM: 0.340
+Num Clusters: 6  Silhouette Score K-Means: 0.348 GMM: 0.267
+Num Clusters: 7  Silhouette Score K-Means: 0.345 GMM: 0.192
+---> Best K-Means score: 0.363, Number of clusters: 3
+---> Best GMM score: 0.363, Number of clusters: 3
+
+Hallway Pre Latent Scores:
+Num Clusters: 2  Silhouette Score K-Means: 0.332 GMM: 0.337
+Num Clusters: 3  Silhouette Score K-Means: 0.361 GMM: 0.349
+Num Clusters: 4  Silhouette Score K-Means: 0.335 GMM: 0.330
+Num Clusters: 5  Silhouette Score K-Means: 0.351 GMM: 0.323
+Num Clusters: 6  Silhouette Score K-Means: 0.394 GMM: 0.342
+Num Clusters: 7  Silhouette Score K-Means: 0.400 GMM: 0.335
+---> Best K-Means score: 0.400, Number of clusters: 7
+---> Best GMM score: 0.349, Number of clusters: 3
+
+Type Pre Latent Scores:
+Num Clusters: 2  Silhouette Score K-Means: 0.408 GMM: 0.407
+Num Clusters: 3  Silhouette Score K-Means: 0.400 GMM: 0.356
+Num Clusters: 4  Silhouette Score K-Means: 0.392 GMM: 0.391
+Num Clusters: 5  Silhouette Score K-Means: 0.389 GMM: 0.372
+Num Clusters: 6  Silhouette Score K-Means: 0.399 GMM: 0.368
+Num Clusters: 7  Silhouette Score K-Means: 0.423 GMM: 0.407
+---> Best K-Means score: 0.423, Number of clusters: 7
+---> Best GMM score: 0.407, Number of clusters: 7
+
+K-Means scores: [0.377, 0.421, 0.363, 0.400, 0.423], Avg: 0.397
+GMM score: [0.359, 0.377, 0.363, 0.349, 0.407], Avg: 0.371
+
+###############################################################################################
+###############################################################################################
+
+USE_CATEGORICAL = True
+USE_CLASSIFICATION = False
+
+Floor Pre Latent Scores:
+Num Clusters: 2  Silhouette Score K-Means: 0.489 GMM: 0.478
+Num Clusters: 3  Silhouette Score K-Means: 0.377 GMM: 0.360
+Num Clusters: 4  Silhouette Score K-Means: 0.383 GMM: 0.321
+Num Clusters: 5  Silhouette Score K-Means: 0.384 GMM: 0.313
+Num Clusters: 6  Silhouette Score K-Means: 0.383 GMM: 0.298
+Num Clusters: 7  Silhouette Score K-Means: 0.379 GMM: 0.254
+---> Best K-Means score: 0.489, Number of clusters: 2
+---> Best GMM score: 0.478, Number of clusters: 2
+
+Sofa Pre Latent Scores:
+Num Clusters: 2  Silhouette Score K-Means: 0.566 GMM: 0.566
+Num Clusters: 3  Silhouette Score K-Means: 0.607 GMM: 0.594
+Num Clusters: 4  Silhouette Score K-Means: 0.521 GMM: 0.518
+Num Clusters: 5  Silhouette Score K-Means: 0.479 GMM: 0.428
+Num Clusters: 6  Silhouette Score K-Means: 0.399 GMM: 0.404
+Num Clusters: 7  Silhouette Score K-Means: 0.384 GMM: 0.359
+---> Best K-Means score: 0.607, Number of clusters: 3
+---> Best GMM score: 0.594, Number of clusters: 3
+
+Room Pre Latent Scores:
+Num Clusters: 2  Silhouette Score K-Means: 0.397 GMM: 0.403
+Num Clusters: 3  Silhouette Score K-Means: 0.551 GMM: 0.546
+Num Clusters: 4  Silhouette Score K-Means: 0.586 GMM: 0.583
+Num Clusters: 5  Silhouette Score K-Means: 0.484 GMM: 0.475
+Num Clusters: 6  Silhouette Score K-Means: 0.472 GMM: 0.467
+Num Clusters: 7  Silhouette Score K-Means: 0.452 GMM: 0.464
+---> Best K-Means score: 0.586, Number of clusters: 4
+---> Best GMM score: 0.583, Number of clusters: 4
+
+Hallway Pre Latent Scores:
+Num Clusters: 2  Silhouette Score K-Means: 0.493 GMM: 0.493
+Num Clusters: 3  Silhouette Score K-Means: 0.587 GMM: 0.586
+Num Clusters: 4  Silhouette Score K-Means: 0.639 GMM: 0.637
+Num Clusters: 5  Silhouette Score K-Means: 0.548 GMM: 0.533
+Num Clusters: 6  Silhouette Score K-Means: 0.469 GMM: 0.466
+Num Clusters: 7  Silhouette Score K-Means: 0.425 GMM: 0.465
+---> Best K-Means score: 0.639, Number of clusters: 4
+---> Best GMM score: 0.637, Number of clusters: 4
+
+Type Pre Latent Scores:
+Num Clusters: 2  Silhouette Score K-Means: 0.387 GMM: 0.381
+Num Clusters: 3  Silhouette Score K-Means: 0.493 GMM: 0.493
+Num Clusters: 4  Silhouette Score K-Means: 0.499 GMM: 0.407
+Num Clusters: 5  Silhouette Score K-Means: 0.530 GMM: 0.486
+Num Clusters: 6  Silhouette Score K-Means: 0.583 GMM: 0.581
+Num Clusters: 7  Silhouette Score K-Means: 0.629 GMM: 0.628
+---> Best K-Means score: 0.629, Number of clusters: 7
+---> Best GMM score: 0.628, Number of clusters: 7
+
+K-Means scores: [0.489, 0.607, 0.586, 0.639, 0.629], Avg: 0.590
+GMM score: [0.478, 0.594, 0.583, 0.637, 0.628], Avg: 0.584
+
+###############################################################################################
+###############################################################################################
+
+USE_CATEGORICAL = True
+USE_CLASSIFICATION = True
+
+Floor Pre Latent Scores:
+Num Clusters: 2  Silhouette Score K-Means: 0.560 GMM: 0.540
+Num Clusters: 3  Silhouette Score K-Means: 0.440 GMM: 0.460
+Num Clusters: 4  Silhouette Score K-Means: 0.393 GMM: 0.393
+Num Clusters: 5  Silhouette Score K-Means: 0.388 GMM: 0.354
+Num Clusters: 6  Silhouette Score K-Means: 0.388 GMM: 0.378
+Num Clusters: 7  Silhouette Score K-Means: 0.381 GMM: 0.328
+---> Best K-Means score: 0.560, Number of clusters: 2
+---> Best GMM score: 0.540, Number of clusters: 2
+
+Sofa Pre Latent Scores:
+Num Clusters: 2  Silhouette Score K-Means: 0.541 GMM: 0.541
+Num Clusters: 3  Silhouette Score K-Means: 0.525 GMM: 0.536
+Num Clusters: 4  Silhouette Score K-Means: 0.517 GMM: 0.515
+Num Clusters: 5  Silhouette Score K-Means: 0.462 GMM: 0.452
+Num Clusters: 6  Silhouette Score K-Means: 0.441 GMM: 0.418
+Num Clusters: 7  Silhouette Score K-Means: 0.466 GMM: 0.393
+---> Best K-Means score: 0.541, Number of clusters: 2
+---> Best GMM score: 0.541, Number of clusters: 2
+
+Room Pre Latent Scores:
+Num Clusters: 2  Silhouette Score K-Means: 0.480 GMM: 0.479
+Num Clusters: 3  Silhouette Score K-Means: 0.622 GMM: 0.623
+Num Clusters: 4  Silhouette Score K-Means: 0.675 GMM: 0.673
+Num Clusters: 5  Silhouette Score K-Means: 0.524 GMM: 0.518
+Num Clusters: 6  Silhouette Score K-Means: 0.481 GMM: 0.464
+Num Clusters: 7  Silhouette Score K-Means: 0.407 GMM: 0.383
+---> Best K-Means score: 0.675, Number of clusters: 4
+---> Best GMM score: 0.673, Number of clusters: 4
+
+Hallway Pre Latent Scores:
+Num Clusters: 2  Silhouette Score K-Means: 0.520 GMM: 0.520
+Num Clusters: 3  Silhouette Score K-Means: 0.596 GMM: 0.596
+Num Clusters: 4  Silhouette Score K-Means: 0.616 GMM: 0.615
+Num Clusters: 5  Silhouette Score K-Means: 0.558 GMM: 0.551
+Num Clusters: 6  Silhouette Score K-Means: 0.491 GMM: 0.471
+Num Clusters: 7  Silhouette Score K-Means: 0.466 GMM: 0.471
+---> Best K-Means score: 0.616, Number of clusters: 4
+---> Best GMM score: 0.615, Number of clusters: 4
+
+Type Pre Latent Scores:
+Num Clusters: 2  Silhouette Score K-Means: 0.385 GMM: 0.379
+Num Clusters: 3  Silhouette Score K-Means: 0.489 GMM: 0.400
+Num Clusters: 4  Silhouette Score K-Means: 0.483 GMM: 0.411
+Num Clusters: 5  Silhouette Score K-Means: 0.497 GMM: 0.341
+Num Clusters: 6  Silhouette Score K-Means: 0.564 GMM: 0.495
+Num Clusters: 7  Silhouette Score K-Means: 0.614 GMM: 0.585
+---> Best K-Means score: 0.614, Number of clusters: 7
+---> Best GMM score: 0.585, Number of clusters: 7
+
+K-Means scores: [0.560, 0.541, 0.675, 0.616, 0.614], Avg: 0.601
+GMM score: [0.540, 0.541, 0.673, 0.615, 0.585], Avg: 0.590
